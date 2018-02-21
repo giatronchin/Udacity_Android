@@ -1,0 +1,9 @@
+Note Android Development:
+1- Building Layouts
+"dp" stand for density independent pixels, infact on different resolution devices to define an element width dimension of n pixel means that on every single device this element is going to look smaller than the others with smaller resolution. *Suggestion: every target element should be 48dp at least*
+
+NOTA: ctrl + shift + z "re-do"
+
+layout_width/height = "wrap_content" dimension of the element will change in function of what you will put inside of it to fit exactly its width/height
+
+"sp" scale independent pixel
